@@ -76,6 +76,8 @@ body{
 
 .description {
     cursor: pointer;
+    margin-top: 10px;
+    text-align: left;
 }
 
 .discount {
