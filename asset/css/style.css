@@ -1,7 +1,75 @@
-/* Reset */  *{
+/* Reset */ 
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    } /* Fine Reset */
-    
+} /* Fine Reset */
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.product {
+    position: relative;
+    display: inline-block;
+    border: 2px solid red;
+    cursor: pointer;
+    height: 700px;
+    width: 485px;
+    background-image: url(../img/1.webp);
+    background-size: contain;
+}
+
+.product:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.description {
+    cursor: pointer;
+}
+
+.discount {
+    position: absolute;
+    color: white;
+    background: #eb0037;
+    padding: 5px;
+    bottom: 25px;
+    left: 0;
+    font-size: 0.8rem;
+}
+
+.sostenibilità {
+    position: absolute;
+    background-color: #00875a;
+    color: white;
+    padding: 5px;
+    bottom: 25px;
+    left: 45px;
+    font-size: 0.8rem;
+}
+
+.heart {
+    position: absolute;
+    background-color: white;
+    padding: 5px 10px 5px 7px;
+    top: 10px;
+    right: 10px;
+}
+
+.brand {
+    font-size: 0.8rem;
+}
+
+.discounted-price{
+    color: red;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.normal-price {
+    text-decoration: line-through;
+    font-size: 0.8rem;
+}
