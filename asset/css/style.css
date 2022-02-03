@@ -7,22 +7,14 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
     text-align: center;
 }
 
 .single-product {
     display: inline-block;
-}
-
-.product {
-    position: relative;
-    cursor: pointer;
-    height: 600px;
-    width: 415px;
-    background-size: contain;
-    padding: 10px;
+    margin: 20px auto;
 }
 
 .img1{
@@ -49,6 +41,39 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTljKrgaJvepciJ3m2XhmXDiuJ0FHORHi5YNB-dujUNerUeyZUDK4QiUfnC_6D49U-IwCQ&usqp=CAU);
 }
 
+.img4 {
+    background-image: url(../img/4.webp);
+}
+
+.img4:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.img5 {
+    background-image: url(../img/5.webp);
+}
+
+.img5:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.img6 {
+    background-image: url(../img/6.webp);
+}
+
+.img6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+.product {
+    position: relative;
+    cursor: pointer;
+    height: 600px;
+    width: 415px;
+    background-size: contain;
+    padding: 10px;
+}
+
 .description {
     cursor: pointer;
 }
@@ -61,6 +86,7 @@ body{
     bottom: 25px;
     left: 0;
     font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .sostenibilità {
@@ -71,6 +97,18 @@ body{
     bottom: 25px;
     left: 45px;
     font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.sostenibilità2{
+    position: absolute;
+    background-color: #00875a;
+    color: white;
+    padding: 5px;
+    bottom: 25px;
+    left: 0px;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .heart {
